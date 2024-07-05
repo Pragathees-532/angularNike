@@ -1,5 +1,13 @@
+.footers{
+    display: flex;
+    justify-content: space-around;
+}
+
 footer{
     text-align: center;
     background-color: black;
     color: white;
+}
+.footers p {
+    color: gray;
 }
