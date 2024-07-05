@@ -1,0 +1,24 @@
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    align-items: center;
+    border: 2px solid #ddd;
+    padding: 1rem;
+    width: calc(33.333% - 2rem);
+    box-sizing: border-box;
+    box-shadow: 0 2px 3px rgb(0, 0, 0.1);
+    text-align: center;
+  }
+.product-card img{
+    width: 100%;
+  }
+.product-card button{
+  margin-top: 15px;
+}

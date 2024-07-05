@@ -1,0 +1,15 @@
+<div class="carousel">
+  <button (click)="prev()" class="carousel-control prev">‹</button>
+  
+  <div class="carousel-items">
+    <div class="carousel-item" *ngFor="let item of items; let i = index" [class.active]="i === currentIndex">
+       <img src="https://th.bing.com/th/id/OIP.rK-iMZVT1Ym4k-B4BElYDwHaHa?w=209&h=180&c=7&r=0&o=5&pid=1.7" alt="item.title">
+      <div class="carousel-caption">
+         <h3>{{ item.title }}</h3>
+         <p>{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+
+  <button (click)="next()" class="carousel-control next">›</button>
+</div>
